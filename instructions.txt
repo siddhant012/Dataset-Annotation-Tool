@@ -1,0 +1,12 @@
+How to use?
+1.Place all files in the same directory.
+2.Open the info.py file and specify the required values.
+3.Run the label.py file.
+4.Load the saved labels using the functions present in load.py file.
+
+Instructions
+1.Provide start and stop image numbers (in numerically sorted format) when dealing with large number of images in a directory.
+2.In case of bbox label , provide the upper-left and bottom-right coordinate points.
+3.Provide labels for multiple objects in the same image by setting multiple=True in info.py file.
+4.Currently allowed formats for saving labels : csv , txt , json .
+5.txt format saves labels in a space separated text file , csv format saves labels in a comma separated text file.
