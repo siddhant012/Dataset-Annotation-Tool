@@ -5,7 +5,7 @@ How to use?
 4.Load the saved labels using the functions present in load.py file.
 
 Instructions
-1.Provide start and stop image numbers (in numerically sorted format) when dealing with large number of images in a directory.
+1.Provide start and stop image numbers when dealing with large number of images in a directory to enable working in parts (for ex 1-500 images at one time and 501-1000 images next time)
 2.In case of bbox label , provide the upper-left and bottom-right coordinate points.
 3.Provide labels for multiple objects in the same image by setting multiple=True in info.py file.
 4.Currently allowed formats for saving labels : csv , txt , json .
